@@ -108,7 +108,6 @@ python car_price_prediction.py
 
 This ML model can be deployed using **Streamlit**, **Flask**, or **FastAPI**.
 
-Refer to the deployment steps below.
 
 ---
 
