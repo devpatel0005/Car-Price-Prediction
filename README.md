@@ -134,6 +134,13 @@ This ML model can be deployed using **Streamlit**, **Flask**, or **FastAPI**.
 * GitHub: [https://github.com/devpatel0005](https://github.com/devpatel0005)
 * LinkedIn: [https://www.linkedin.com/in/devdpatel190905](https://www.linkedin.com/in/devdpatel190905)
 
+
+
+**Om Choksi**
+
+* GitHub: [https://github.com/devpatel0005](https://github.com/omchoksi108)
+* LinkedIn: [https://www.linkedin.com/in/devdpatel190905](https://www.linkedin.com/in/omchoksi)
+
 ---
 
 ## ⭐ If you like this project, give it a star!
