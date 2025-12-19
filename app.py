@@ -12,12 +12,23 @@ st.title("🚗 Car Price Prediction App")
 
 st.write("Enter car details to predict price")
 
-# INPUTS (adjust count if needed)
-features = []
-for i in range(10):   # keep same feature count used during training
-    features.append(st.number_input(f"Feature {i+1}", value=0.0))
+# INPUTS
+
+
+wheelbase = st.number_input("Wheelbase", value=98.76)   # default values can be adjusted
+carlength = st.number_input("Car Length", value=174.05)
+carwidth = st.number_input("Car Width", value=65.91)
+carheight = st.number_input("Car Height", value=53.72)
+curbweight = st.number_input("Curb Weight", value=2555.57)
+enginesize = st.number_input("Engine Size", value=126.91)
+boreratio = st.number_input("Bore Ratio", value=3.33)
+stroke = st.number_input("Stroke", value=3.26)
+compressionratio = st.number_input("Compression Ratio", value=10.14)
+horsepower = st.number_input("Horsepower", value=104.12)
+
+features = [wheelbase, carlength, carwidth, carheight, curbweight, enginesize, boreratio, stroke, compressionratio, horsepower]
 
 if st.button("Predict Price"):
     data = scaler.transform([features])
     prediction = model.predict(data)
-    st.success(f"💰 Estimated Car Price: ₹ {int(prediction[0])}")
+    st.success(f"💰 Estimated Car Price: ₹ {int(prediction[0])*10}")
