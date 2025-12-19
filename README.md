@@ -12,6 +12,11 @@ The model is trained on a real-world car price dataset and evaluated using **R²
 
 ---
 
+## 🎨 Project Visualization
+
+![Car Price Prediction Dashboard](assets/image.png)
+
+
 ## 🧠 ML Models Used
 
 * **Linear Regression**
